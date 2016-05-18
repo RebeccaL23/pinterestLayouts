@@ -7,13 +7,14 @@
 
 #one{
 	background-image: url('../images/hermit.jpg');
-	background-size: 400px;
+	background-size: cover;
 	z-index: 0;
 	position: absolute;
+	margin-top: 1069px;
 }
 #two{
 	background-image: url('../images/hamster.jpg');
-	background-size: 340px;
+	background-size: cover;
 	margin-left: 298px;
 	margin-top: 177px;
 	z-index: 1;
@@ -21,7 +22,7 @@
 }
 #three{
 	background-image: url('../images/rabbit.jpg');
-	background-size: 400px;
+	background-size: cover;
 	z-index: 2;
 	position: absolute;
 	margin-top: 356px;
@@ -29,7 +30,7 @@
 }
 #four{
 	background-image: url('../images/goldfish.jpg');
-	background-size: 200px;
+	background-size: cover;
 	z-index: 3;
 	position: absolute;
 	margin-left: 298px;
@@ -37,7 +38,7 @@
 }
 #five{
 	background-image: url('../images/tootle.jpg');
-	background-size: 400px;
+	background-size: cover;
 	z-index: 4;
 	position: absolute;
 	margin-left: 597px;
@@ -46,7 +47,7 @@
 
 #six{
 	background-image: url('../images/hedgehog.jpg');
-	background-size: 400px;
+	background-size: cover;
 	z-index: 5;
 	position: absolute;
 	margin-left: 597px;
@@ -55,9 +56,35 @@
 
 #seven{
 	background-image: url('../images/parrot.jpg');
-	background-size: 470px;
+	background-size: cover;
 	z-index: 6;
 	position: absolute;
 	margin-left: 298px;
 	margin-top: 891px;
+}
+
+#eight{
+	background-image: url('../images/chameleon.jpg');
+	background-size: cover;
+	z-index: 7;
+	position: absolute;
+	margin-top: 712px;
+}
+
+#nine{
+	background-image: url('../images/gecko.jpg');
+	background-size: cover;
+	z-index: 8;
+	position: absolute;
+	margin-top: 1069px;
+	margin-left: 597px;
+}
+
+#ten{
+	background-image: url('../images/birds.jpg');
+	background-size: cover;
+	z-index: 8;
+	position: absolute;
+	margin-top: 1247px;
+	margin-left: 298px;
 }
