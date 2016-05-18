@@ -1,0 +1,85 @@
+#background{
+	background-color: #f0f0f0;
+	width: 1000px;
+	height: 1200px;
+	z-index: 0;
+	position: absolute;
+}
+
+#background2{
+	width: 900px;
+	height: 2000px;
+	background-color: #fdfdfd;
+}
+
+#one, #two, #three, #four, #five, #six, #seven{
+	width: 570px;
+	height: 570px;
+	-webkit-clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+	opacity: 0.8;
+	margin-left: 200px;
+}
+
+#one{
+	background-image: url('https://res.cloudinary.com/listium/image/upload/c_thumb,w_570,h_570/v1450746982/ollcjspruh6nyvhdf8c2.jpg');
+	background-size: 570px;
+	background-repeat: no-repeat;
+	margin-left: 600px;
+	margin-top: 200px;
+	z-index: 1;
+	position: absolute;
+}
+
+#two{
+	background-image: url('https://res.cloudinary.com/listium/image/upload/c_thumb,w_570,h_570/v1450747212/uxty2dkb4wvf027risdr.jpg');
+	background-size: 600px;
+	margin-left: 310px;
+	margin-top: 487px;
+	z-index: 2;
+	position: absolute;
+}
+
+#three{
+	background-image: url('https://res.cloudinary.com/listium/image/upload/c_thumb,w_570,h_570/v1460626377/zlkwcy79mkp0qqth9mwb.jpg');
+	background-size: 640px;
+	z-index: 3;
+	position: absolute;
+	margin-left: 890px;
+	margin-top: 487px;
+}
+#four{
+	background-image: url('https://res.cloudinary.com/listium/image/upload/c_thumb,w_570,h_570/v1460708296/f6irlgxhc0avad7598zh.jpg');
+	background-size: 520px;
+	z-index: 4;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 773px;
+}
+
+#five{
+	background-image: url('https://res.cloudinary.com/listium/image/upload/c_thumb,w_570,h_570/v1460627385/mjpqlgraqevnavrds52e.jpg');
+	background-size: 640px;
+	z-index: 5;
+	position: absolute;
+	margin-top: 1060px;
+	margin-left: 310px;
+	opacity: 0.5;
+}
+
+#six{
+	background-image: url('https://res.cloudinary.com/listium/image/upload/c_thumb,w_570,h_570/v1450744137/exxbg8pyrgavrrjrsnls.jpg');
+	background-size: 640px;
+	z-index: 6;
+	position: absolute;
+	margin-top: 1060px;
+	margin-left: 893px;
+}
+
+#seven{
+	background-image: url('https://res.cloudinary.com/listium/image/upload/c_thumb,w_570,h_570/v1450744124/lict1tcjngrs4rciasul.jpg');
+	background-size: 640px;
+	z-index: 6;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 1350px;
+}

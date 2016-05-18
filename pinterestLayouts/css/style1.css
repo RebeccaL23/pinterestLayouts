@@ -1,0 +1,61 @@
+.container{
+	width: 400px;
+	height: 400px;
+}
+#one{
+	width: 390px;
+	height: 398px;
+	background-image: url('../images/pesto.jpeg');
+	background-repeat: repeat;
+	background-size: 305px;
+	-webkit-clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+	z-index: 0;
+	position: absolute;
+
+}
+
+#two{
+	width: 390px;
+	height: 398px;
+	background-image: url('../images/cuttings.jpg');
+	background-repeat: repeat;
+	background-size: 305px;
+	-webkit-clip-path: polygon(0% 0%, 100% 100%, 100% 0%);
+	z-index: 1;
+	position: absolute;
+	margin-left: 17px;
+
+}
+
+#three{
+	background-image: url('../images/caprese.jpg');
+	margin-left: 420px;
+	background-size: 400px;
+}
+
+#row2{
+	margin-top: 10px;
+}
+
+#four{
+	width: 405px;
+	background-image: url('../images/herbbutter.jpg');
+	background-size: 405px;
+	z-index: 0;
+	position: absolute;
+}
+
+#five{
+	background-image: url('../images/salad.jpg');
+	background-size: 600px;
+	margin-left: 420px;
+	z-index: 1;
+	position: absolute;
+}
+
+#six{
+	background-image: url('../images/hebrs.jpg');
+	width: 820px;
+	margin-top: 417px;
+	background-size: 600px;
+}

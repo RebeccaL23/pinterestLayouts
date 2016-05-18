@@ -1,0 +1,63 @@
+.container{
+	width: 400px;
+	height: 350px;
+	-webkit-clip-path: polygon(0% 50%, 27% 0%, 73% 0%, 100% 50%,73% 100%, 27% 100%);
+	opacity: 0.8;
+}
+
+#one{
+	background-image: url('../images/hermit.jpg');
+	background-size: 400px;
+	z-index: 0;
+	position: absolute;
+}
+#two{
+	background-image: url('../images/hamster.jpg');
+	background-size: 340px;
+	margin-left: 298px;
+	margin-top: 177px;
+	z-index: 1;
+	position: absolute;
+}
+#three{
+	background-image: url('../images/rabbit.jpg');
+	background-size: 400px;
+	z-index: 2;
+	position: absolute;
+	margin-top: 356px;
+	margin-left: 0px;
+}
+#four{
+	background-image: url('../images/goldfish.jpg');
+	background-size: 200px;
+	z-index: 3;
+	position: absolute;
+	margin-left: 298px;
+	margin-top: 535px;
+}
+#five{
+	background-image: url('../images/tootle.jpg');
+	background-size: 400px;
+	z-index: 4;
+	position: absolute;
+	margin-left: 597px;
+	margin-top: 356px;
+}
+
+#six{
+	background-image: url('../images/hedgehog.jpg');
+	background-size: 400px;
+	z-index: 5;
+	position: absolute;
+	margin-left: 597px;
+	margin-top: 712px;
+}
+
+#seven{
+	background-image: url('../images/parrot.jpg');
+	background-size: 470px;
+	z-index: 6;
+	position: absolute;
+	margin-left: 298px;
+	margin-top: 891px;
+}
